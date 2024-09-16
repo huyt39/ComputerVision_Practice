@@ -1,7 +1,7 @@
 import numpy as np
 import cv2 as cv
 
-haar_cascade = cv.CascadeClassifier('OpenCV_CodeCamp/haar_face.yml')
+haar_cascade = cv.CascadeClassifier('OpenCV_CodeCamp/haar_face.xml')
 people = ['Neymar', 'Jackie', 'Leonardo', 'Emma ']
 
 # features = np.load('features2.npy', allow_pickle = True)
